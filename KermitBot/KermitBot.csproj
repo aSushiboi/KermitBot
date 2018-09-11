@@ -128,6 +128,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\anime.cs" />
     <Compile Include="Commands\at.cs" />
     <Compile Include="Commands\sad.cs" />
     <Compile Include="Program.cs" />

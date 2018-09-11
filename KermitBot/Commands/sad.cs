@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using Discord.Audio;
 
 namespace KermitBot.Modules
 {
@@ -13,7 +14,7 @@ namespace KermitBot.Modules
         [Command("sad")]
         public async Task sadSync()
         {
-            await ReplyAsync("Playing despacito https://www.youtube.com/watch?v=kJQP7kiw5Fk ");
+           await ReplyAsync("Someone is sad. This should help https://www.youtube.com/watch?v=kJQP7kiw5Fk ");
         }
     }
 }
